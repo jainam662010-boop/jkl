@@ -1,0 +1,352 @@
+{
+  "subjects": [
+    {
+      "id": "social-science",
+      "name": "Social Science",
+      "nameHi": "सामाजिक विज्ञान",
+      "icon": "🌍",
+      "color": "#C85A3C",
+      "gradient": "linear-gradient(135deg,#C85A3C,#8A3A20)",
+      "glow": "rgba(200,90,60,0.10)",
+      "bg": "rgba(200,90,60,0.08)",
+      "border": "rgba(200,90,60,0.22)",
+      "description": "History, Geography, Political Science & Economics",
+      "chapters": [
+        {
+          "id": "nationalism-europe",
+          "title": "History: Nationalism in Europe",
+          "titleHi": "यूरोप में राष्ट्रवाद का उदय",
+          "duration": "55 min",
+          "unit": "History",
+          "lessons": [
+            { "id": "l1", "title": "French Revolution & Nationalism", "videoId": "VT69NhHtTaQ", "duration": "20:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Frederic Sorrieu's vision of a democratic and social republic", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Allegories: Germania, Marianne, Britannia, Italia", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Unification of Germany under Bismarck", "marks": "5", "important": true, "type": "event" },
+            { "text": "Frankfurt Parliament 1848", "marks": "3", "important": true, "type": "event" }
+          ]
+        },
+        {
+          "id": "nationalism-india",
+          "title": "History: Nationalism in India",
+          "titleHi": "भारत में राष्ट्रवाद",
+          "duration": "60 min",
+          "unit": "History",
+          "lessons": [
+            { "id": "l1", "title": "First World War and Indian Nationalism", "videoId": "1a2B3c4D5e6", "duration": "22:00" }
+          ],
+          "ncertTopics": [
+            { "text": "First World War, Khilafat and Non-Cooperation", "marks": "5", "important": true, "type": "event" },
+            { "text": "Rowlatt Act and Jallianwala Bagh", "marks": "3", "important": true, "type": "event" },
+            { "text": "Civil Disobedience Movement", "marks": "5", "important": true, "type": "event" },
+            { "text": "Quit India Movement", "marks": "3", "important": true, "type": "event" }
+          ]
+        },
+        {
+          "id": "global-world",
+          "title": "History: Making of a Global World",
+          "titleHi": "वैश्विक दुनिया का निर्माण",
+          "duration": "50 min",
+          "unit": "History",
+          "lessons": [
+            { "id": "l1", "title": "Silk Routes and Trade", "videoId": "2b3C4d5E6f7", "duration": "18:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Silk Routes and food travel", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Conquest, Disease and Trade", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Nineteenth Century (1815-1914)", "marks": "3", "important": true, "type": "concept" },
+            { "text": "The Inter-war Economy", "marks": "2", "important": true, "type": "concept" }
+          ]
+        },
+        {
+          "id": "age-of-industrialisation",
+          "title": "History: The Age of Industrialisation",
+          "titleHi": "औद्योगीकरण का युग",
+          "duration": "50 min",
+          "unit": "History",
+          "lessons": [
+            { "id": "l1", "title": "Industrial Revolution", "videoId": "3c4D5e6F7g8", "duration": "20:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Before the Industrial Revolution", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Britain: The First Industrial Nation", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Industrialisation in India", "marks": "5", "important": true, "type": "concept" },
+            { "text": "Factories Come Up and Market for Goods", "marks": "3", "important": true, "type": "concept" }
+          ]
+        },
+        {
+          "id": "print-culture",
+          "title": "History: Print Culture",
+          "titleHi": "मुद्रण संस्कृति",
+          "duration": "45 min",
+          "unit": "History",
+          "lessons": [
+            { "id": "l1", "title": "Development of Printing", "videoId": "4d5E6f7G8h9", "duration": "17:00" }
+          ],
+          "ncertTopics": [
+            { "text": "The First Printed Books", "marks": "2", "important": true, "type": "concept" },
+            { "text": "Print Comes to Europe", "marks": "3", "important": true, "type": "concept" },
+            { "text": "The Print Revolution and its Impact", "marks": "5", "important": true, "type": "concept" },
+            { "text": "India and the World of Print", "marks": "3", "important": true, "type": "concept" }
+          ]
+        },
+        {
+          "id": "resources-development",
+          "title": "Geography: Resources and Development",
+          "titleHi": "संसाधन और विकास",
+          "duration": "50 min",
+          "unit": "Geography",
+          "lessons": [
+            { "id": "l1", "title": "Types and Classification of Resources", "videoId": "R0piMGbDJ5M", "duration": "18:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Classification: Biotic/Abiotic, Renewable/Non-renewable", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Land use pattern in India", "marks": "3", "important": true, "type": "data" },
+            { "text": "Soil types in India: Alluvial, Black, Red, Laterite", "marks": "5", "important": true, "type": "table" },
+            { "text": "Soil erosion and conservation", "marks": "3", "important": true, "type": "concept" }
+          ]
+        },
+        {
+          "id": "forest-wildlife",
+          "title": "Geography: Forest and Wildlife",
+          "titleHi": "वन और वन्यजीव",
+          "duration": "40 min",
+          "unit": "Geography",
+          "lessons": [
+            { "id": "l1", "title": "Conservation of Biodiversity", "videoId": "5e6F7g8H9i0", "duration": "16:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Flora and Fauna in India", "marks": "2", "important": true, "type": "concept" },
+            { "text": "Vanishing Forests and Conservation", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Types and Distribution of Forests", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Community and Conservation", "marks": "2", "important": true, "type": "concept" }
+          ]
+        },
+        {
+          "id": "water-resources",
+          "title": "Geography: Water Resources",
+          "titleHi": "जल संसाधन",
+          "duration": "40 min",
+          "unit": "Geography",
+          "lessons": [
+            { "id": "l1", "title": "Water Scarcity and Conservation", "videoId": "6f7G8h9I0j1", "duration": "16:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Water: Some Facts and Figures", "marks": "2", "important": true, "type": "data" },
+            { "text": "Water Scarcity and The Need for Conservation", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Multi-Purpose River Projects", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Rainwater Harvesting", "marks": "3", "important": true, "type": "concept" }
+          ]
+        },
+        {
+          "id": "agriculture",
+          "title": "Geography: Agriculture",
+          "titleHi": "कृषि",
+          "duration": "50 min",
+          "unit": "Geography",
+          "lessons": [
+            { "id": "l1", "title": "Types of Farming", "videoId": "7g8H9i0J1k2", "duration": "20:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Types of Farming in India", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Cropping Pattern and Major Crops", "marks": "5", "important": true, "type": "concept" },
+            { "text": "Food Security and Impact of Globalisation", "marks": "3", "important": true, "type": "concept" }
+          ]
+        },
+        {
+          "id": "minerals-energy",
+          "title": "Geography: Minerals and Energy Resources",
+          "titleHi": "खनिज और ऊर्जा संसाधन",
+          "duration": "50 min",
+          "unit": "Geography",
+          "lessons": [
+            { "id": "l1", "title": "Types of Minerals", "videoId": "8h9I0j1K2l3", "duration": "20:00" }
+          ],
+          "ncertTopics": [
+            { "text": "What is a Mineral?", "marks": "2", "important": true, "type": "concept" },
+            { "text": "Occurrence and Classification of Minerals", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Conservation of Minerals", "marks": "2", "important": true, "type": "concept" },
+            { "text": "Energy Resources: Conventional and Non-conventional", "marks": "5", "important": true, "type": "concept" }
+          ]
+        },
+        {
+          "id": "manufacturing-industries",
+          "title": "Geography: Manufacturing Industries",
+          "titleHi": "विनिर्माण उद्योग",
+          "duration": "50 min",
+          "unit": "Geography",
+          "lessons": [
+            { "id": "l1", "title": "Types and Location of Industries", "videoId": "9I0j1K2l3M4", "duration": "20:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Importance of Manufacturing", "marks": "2", "important": true, "type": "concept" },
+            { "text": "Contribution of Industry to National Economy", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Industrial Location and Classification", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Agro-Based and Mineral Based Industries", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Industrial Pollution and Environmental Degradation", "marks": "3", "important": true, "type": "concept" }
+          ]
+        },
+        {
+          "id": "lifelines-economy",
+          "title": "Geography: Lifelines of National Economy",
+          "titleHi": "राष्ट्रीय अर्थव्यवस्था की जीवन रेखाएँ",
+          "duration": "45 min",
+          "unit": "Geography",
+          "lessons": [
+            { "id": "l1", "title": "Transport and Communication", "videoId": "0J1k2L3m4N5", "duration": "18:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Transport - Roadways, Railways, Pipelines, Waterways, Airways", "marks": "5", "important": true, "type": "concept" },
+            { "text": "Communication and Trade", "marks": "3", "important": true, "type": "concept" },
+            { "text": "International Trade and Tourism", "marks": "3", "important": true, "type": "concept" }
+          ]
+        },
+        {
+          "id": "power-sharing",
+          "title": "Political Science: Power Sharing",
+          "titleHi": "सत्ता की साझेदारी",
+          "duration": "45 min",
+          "unit": "Political Science",
+          "lessons": [
+            { "id": "l1", "title": "Why Power Sharing is Desirable", "videoId": "5jXiGVHyHnk", "duration": "16:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Belgium model vs Sri Lanka model", "marks": "5", "important": true, "type": "case_study" },
+            { "text": "Four forms of power sharing", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Majoritarianism in Sri Lanka", "marks": "3", "important": true, "type": "event" }
+          ]
+        },
+        {
+          "id": "federalism",
+          "title": "Political Science: Federalism",
+          "titleHi": "संघवाद",
+          "duration": "45 min",
+          "unit": "Political Science",
+          "lessons": [
+            { "id": "l1", "title": "What is Federalism?", "videoId": "1k2L3m4N5o6", "duration": "16:00" }
+          ],
+          "ncertTopics": [
+            { "text": "What makes India a Federal Country?", "marks": "3", "important": true, "type": "concept" },
+            { "text": "How is Federalism Practised?", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Linguistic States and Centre-State Relations", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Decentralisation in India", "marks": "3", "important": true, "type": "concept" }
+          ]
+        },
+        {
+          "id": "political-parties",
+          "title": "Political Science: Political Parties",
+          "titleHi": "राजनीतिक दल",
+          "duration": "45 min",
+          "unit": "Political Science",
+          "lessons": [
+            { "id": "l1", "title": "Why Do We Need Parties?", "videoId": "2l3M4n5O6p7", "duration": "16:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Why Do We Need Political Parties?", "marks": "3", "important": true, "type": "concept" },
+            { "text": "How Many Parties Should We Have?", "marks": "3", "important": true, "type": "concept" },
+            { "text": "National and Regional Parties", "marks": "5", "important": true, "type": "concept" },
+            { "text": "Challenges to Political Parties", "marks": "3", "important": true, "type": "concept" }
+          ]
+        },
+        {
+          "id": "outcomes-democracy",
+          "title": "Political Science: Outcomes of Democracy",
+          "titleHi": "लोकतंत्र के परिणाम",
+          "duration": "40 min",
+          "unit": "Political Science",
+          "lessons": [
+            { "id": "l1", "title": "How to Assess Democracy", "videoId": "3m4N5o6P7q8", "duration": "14:00" }
+          ],
+          "ncertTopics": [
+            { "text": "How to Assess Democracy's Outcomes", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Accountable, Responsive and Legitimate Government", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Economic Growth and Development", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Reduction of Inequality and Poverty", "marks": "3", "important": true, "type": "concept" }
+          ]
+        },
+        {
+          "id": "development",
+          "title": "Economics: Development",
+          "titleHi": "विकास",
+          "duration": "45 min",
+          "unit": "Economics",
+          "lessons": [
+            { "id": "l1", "title": "What is Development?", "videoId": "OupPfJCIUWM", "duration": "16:00" }
+          ],
+          "ncertTopics": [
+            { "text": "National Development vs Individual Goals", "marks": "3", "important": true, "type": "concept" },
+            { "text": "HDI - indicators: per capita income, health, education", "marks": "3", "important": true, "type": "index" },
+            { "text": "Public Distribution System and literacy rate", "marks": "2", "important": true, "type": "data" },
+            { "text": "Sustainable Development", "marks": "2", "important": true, "type": "concept" }
+          ]
+        },
+        {
+          "id": "sectors-indian-economy",
+          "title": "Economics: Sectors of Indian Economy",
+          "titleHi": "भारतीय अर्थव्यवस्था के क्षेत्र",
+          "duration": "50 min",
+          "unit": "Economics",
+          "lessons": [
+            { "id": "l1", "title": "Primary, Secondary, Tertiary Sectors", "videoId": "4n5O6p7Q8r9", "duration": "20:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Sectors of Economic Activities", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Comparing the Three Sectors", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Rising Importance of Tertiary Sector", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Unemployment and Government Initiatives", "marks": "3", "important": true, "type": "concept" }
+          ]
+        },
+        {
+          "id": "money-credit",
+          "title": "Economics: Money and Credit",
+          "titleHi": "मुद्रा और साख",
+          "duration": "45 min",
+          "unit": "Economics",
+          "lessons": [
+            { "id": "l1", "title": "Role of Money and Banking", "videoId": "5o6P7q8R9s0", "duration": "18:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Money as a Medium of Exchange", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Modern Forms of Money", "marks": "2", "important": true, "type": "concept" },
+            { "text": "Banking and Credit", "marks": "5", "important": true, "type": "concept" },
+            { "text": "Terms of Credit and Self-Help Groups", "marks": "3", "important": true, "type": "concept" }
+          ]
+        },
+        {
+          "id": "globalisation",
+          "title": "Economics: Globalisation",
+          "titleHi": "वैश्वीकरण",
+          "duration": "45 min",
+          "unit": "Economics",
+          "lessons": [
+            { "id": "l1", "title": "Integration of Economies", "videoId": "6p7Q8r9S0t1", "duration": "18:00" }
+          ],
+          "ncertTopics": [
+            { "text": "What is Globalisation?", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Factors that have Enabled Globalisation", "marks": "3", "important": true, "type": "concept" },
+            { "text": "World Trade Organisation", "marks": "2", "important": true, "type": "concept" },
+            { "text": "Impact of Globalisation in India", "marks": "3", "important": true, "type": "concept" }
+          ]
+        },
+        {
+          "id": "consumer-rights",
+          "title": "Economics: Consumer Rights",
+          "titleHi": "उपभोक्ता अधिकार",
+          "duration": "40 min",
+          "unit": "Economics",
+          "lessons": [
+            { "id": "l1", "title": "Consumer Awareness and Rights", "videoId": "7q8R9s0T1u2", "duration": "16:00" }
+          ],
+          "ncertTopics": [
+            { "text": "The Consumer in the Market Place", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Consumer Movement and COPRA 1986", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Consumer Rights and Forums", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Taking the Consumer Movement Forward", "marks": "2", "important": true, "type": "concept" }
+          ]
+        }
+      ]
+    }
+  ]
+}

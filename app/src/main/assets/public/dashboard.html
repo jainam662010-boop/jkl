@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Dashboard — Class 10Edu</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="nb"></div>
+<div class="page-layout">
+  <div id="sb"></div>
+  <main class="main-area" id="mainArea">
+    <div style="display:flex;align-items:center;justify-content:center;padding:80px 0"><div class="spinner"></div></div>
+  </main>
+</div>
+<div id="bn"></div>
+<div class="page-watermark"></div>
+<script src="js/app.js"></script>
+<script src="js/security.js"></script>
+<script src="js/theme_todo.js"></script>
+<script src="js/toast.js"></script>
+<script src="js/gamification.js"></script>
+<script src="js/mascot.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', async () => {
+  // Check onboarding
+  if (!App.hasProfile()) {
+    App.applyMode();
+    App.showOnboarding(() => location.reload());
+    return;
+  }
+
+  App.initPage('dashboard');
+  const data = await App.loadData();
+  const p    = App.getProgress();
+  const admData = App._parseLS('vm_admin_data', { announcements:[], pdfs:[], ncertTopics:[] });
+  const profile = App.getProfile();
+
+  // Compute stats
+  let totalDone=0, totalQz=0, totalPct=0, lastSubj=null, lastCh=null, lastTs=0;
+  data.subjects.forEach(s => {
+    const sp = p[s.id] || {};
+    totalDone += (sp.done||[]).length;
+    Object.values(sp.scores||{}).forEach(sc => { totalQz++; totalPct += sc.pct; });
+    if (sp.last && (sp.last.ts||0) > lastTs) { lastSubj=s; lastCh=sp.last; lastTs=sp.last.ts||0; }
+  });
+  const avgQ    = totalQz ? Math.round(totalPct/totalQz) : 0;
+  const streak  = parseInt(localStorage.getItem('vm_streak')||'0');
+  const anns    = (admData.announcements||[]).slice(0,3);
+  const motd    = localStorage.getItem('vm_motd') || 'Every expert was once a beginner.';
+  const greeting = getGreeting();
+
+  const main = document.getElementById('mainArea');
+  main.innerHTML = `
+    <div class="dashboard-container">
+      <div class="dashboard-grid">
+        <!-- Left Column - Main Content -->
+        <div class="dashboard-main">
+          <!-- Header -->
+          <div class="dash-header">
+            <div style="font-size:0.85rem; font-weight:800; color:var(--accent); text-transform:uppercase; letter-spacing:0.1em; margin-bottom:8px">${greeting}</div>
+            <h1>Welcome back, ${VidyaSec.sanitize(profile?.name || 'Explorer')}! <span class="wave">👋</span></h1>
+            <p>"${VidyaSec.sanitize(motd)}"</p>
+          </div>
+
+          <!-- Continue Learning Hero -->
+          ${lastCh ? `
+          <div class="dash-card continue-card">
+            <div class="continue-content">
+              <div class="continue-info" style="flex:1">
+                <div style="font-size:0.75rem; font-weight:800; color:var(--accent); text-transform:uppercase; letter-spacing:0.05em; margin-bottom:8px">Resume your journey</div>
+                <h3>${VidyaSec.sanitize(lastCh.title)}</h3>
+                <p>${VidyaSec.sanitize(lastSubj?.name||'')} • Module ${lastCh.cid}</p>
+                <a href="chapter.html?subject=${lastSubj?.id||''}&chapter=${lastCh.cid}" class="btn-cta">Resume Learning →</a>
+              </div>
+              <div class="cont-visual">
+                ${App.progressRingHTML(App.getSubjPct(lastSubj.id, lastSubj), 200)}
+              </div>
+            </div>
+          </div>` : `
+          <div class="dash-card continue-card" style="background:var(--grad-primary); color:#fff;">
+            <div class="continue-content">
+              <div class="continue-info" style="flex:1">
+                <div style="font-size:0.75rem; font-weight:800; text-transform:uppercase; letter-spacing:0.05em; margin-bottom:8px; opacity:0.8">Get Started</div>
+                <h3 style="color:#fff;">Ready to score 100?</h3>
+                <p style="color:rgba(255,255,255,0.7);">Pick a subject and start your first lesson today.</p>
+                <a href="subject.html?id=${profile?.favourite||'mathematics'}" class="btn-cta" style="background:#fff; color:var(--accent);">Start Learning →</a>
+              </div>
+              <div style="font-size:80px; opacity:0.2;">🚀</div>
+            </div>
+          </div>
+          `}
+
+          <!-- Subjects Section -->
+          <div class="dash-card">
+            <div class="dash-card-header">
+              <h2 class="dash-card-title">Your Learning Path</h2>
+              <div class="proof-item"><strong>3</strong><span>Core subjects</span></div>
+            </div>
+            <div class="subjects-grid" id="subjGrid"></div>
+          </div>
+
+          <!-- Recommendations -->
+          <div class="dash-card">
+            <div class="dash-card-header">
+              <h2 class="dash-card-title">Smart Recommendations</h2>
+            </div>
+            <div class="recommendations-list" id="recommendations"></div>
+          </div>
+        </div>
+
+        <!-- Right Column - Sidebar -->
+        <div class="dashboard-sidebar">
+          <!-- XP & Level Card -->
+          <div class="dash-card glass-card">
+            <h3 class="dash-card-title">Level & XP</h3>
+            <div id="xpDisplay"></div>
+          </div>
+
+          <!-- Streak Card -->
+          <div class="dash-card glass-card">
+            <div class="streak-icon">🔥</div>
+            <div class="streak-count">${streak}</div>
+            <div class="streak-label">Day Streak</div>
+          </div>
+
+          <!-- Daily Goals -->
+          <div class="dash-card glass-card">
+            <h3 class="dash-card-title" style="margin-bottom:16px;">Daily Goals</h3>
+            <div id="dailyGoals"></div>
+          </div>
+
+          <!-- Quick Stats -->
+          <div class="dash-card">
+            <h3 class="dash-card-title" style="margin-bottom:16px;">Quick Stats</h3>
+            <div class="stats-grid">
+              <div class="stat-item">
+                <div class="stat-icon">📚</div>
+                <div class="stat-value">${data.subjects.length}</div>
+                <div class="stat-label">Subjects</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-icon" style="background:var(--sci-bg); color:var(--sci-c); border-radius:8px; padding:2px;">✅</div>
+                <div class="stat-value">${totalDone}</div>
+                <div class="stat-label">Lessons</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-icon" style="background:var(--math-bg); color:var(--math-c); border-radius:8px; padding:2px;">⭐</div>
+                <div class="stat-value">${avgQ}%</div>
+                <div class="stat-label">Quiz Avg</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-icon" style="background:var(--soc-bg); color:var(--soc-c); border-radius:8px; padding:2px;">🔥</div>
+                <div class="stat-value">${streak}</div>
+                <div class="stat-label">Streak</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Progress Overview -->
+          <div class="dash-card">
+            <h3 class="dash-card-title" style="margin-bottom:16px;">Progress Overview</h3>
+            <div class="progress-compact" id="progressCompact"></div>
+          </div>
+
+          <!-- Daily Goals -->
+          <div class="dash-card">
+            <h3 class="dash-card-title" style="margin-bottom:16px;">Daily Goals</h3>
+            <div id="todoPreview"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+
+  // Render Subjects
+  const sortedSubjs = [...data.subjects];
+  if (profile?.favourite) {
+    const fi = sortedSubjs.findIndex(s => s.id === profile.favourite);
+    if (fi > 0) { const [f] = sortedSubjs.splice(fi,1); sortedSubjs.unshift(f); }
+  }
+  document.getElementById('subjGrid').innerHTML = sortedSubjs.map((s,i) => {
+    const pct  = App.getSubjPct(s.id, s);
+    const sp   = p[s.id] || {};
+    const done = (sp.done||[]).length;
+    return `<a href="subject.html?id=${s.id}" class="subj-card" style="--sc-c:${s.color||'var(--accent)'}; --sc-bg:${s.bg||'var(--accent-bg)'}; animation-delay:${i*100}ms">
+      <div class="sc-top">
+        <div class="sc-icon">${s.icon}</div>
+        <div style="font-size:1.2rem; font-weight:800; color:var(--ink-5)">→</div>
+      </div>
+      <div class="sc-info">
+        <h3>${VidyaSec.sanitize(s.name)}</h3>
+        <p class="sc-desc">${VidyaSec.sanitize(s.description)}</p>
+      </div>
+      <div class="sc-progress">
+        <div class="sc-pmeta">
+          <span>Progress</span>
+          <span>${pct}%</span>
+        </div>
+        <div class="sc-pbar">
+          <div class="sc-pfill" style="--pct: ${pct}%"></div>
+        </div>
+      </div>
+      <div style="display:flex; align-items:center; gap:12px; font-size:0.85rem; font-weight:700; color:var(--ink-4)">
+        <span>📄 ${s.chapters.length} Chapters</span>
+        <span>✅ ${done} Completed</span>
+      </div>
+    </a>`;
+  }).join('');
+
+  // Add futuristic glow effect to subject cards
+  document.querySelectorAll('.subj-card').forEach(card => {
+    card.addEventListener('mousemove', e => {
+      const rect = card.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+      card.style.setProperty('--glow-x', `${x}px`);
+      card.style.setProperty('--glow-y', `${y}px`);
+    });
+  });
+
+  // Animate progress bars on scroll
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in-view');
+      }
+    });
+  }, { threshold: 0.5 });
+
+  document.querySelectorAll('.subj-card').forEach(card => {
+    observer.observe(card);
+  });
+
+  // Recommendations Logic (Simple next chapter)
+  const recs = data.subjects.map(s => {
+    const sp = p[s.id] || {};
+    const nextCh = s.chapters.find(ch => !(sp.done||[]).includes(ch.id));
+    if(!nextCh) return null;
+    return { subj: s, ch: nextCh };
+  }).filter(Boolean).slice(0, 3);
+
+  document.getElementById('recommendations').innerHTML = recs.map(r => `
+    <div class="rec-item" onclick="location.href='chapter.html?subject=${r.subj.id}&chapter=${r.ch.id}'">
+      <div class="rec-icon">${r.subj.icon}</div>
+      <div class="rec-text">
+        <p class="rec-title">${VidyaSec.sanitize(r.ch.title)}</p>
+        <p class="rec-subtitle">Next in ${r.subj.name}</p>
+      </div>
+    </div>
+  `).join('');
+
+  // Recent todos
+  const todos = TodoPanel.getData().slice(0,5);
+  document.getElementById('todoPreview').innerHTML = todos.length
+    ? `<div class="todo-items">${todos.map(t=>TodoPanel.itemHTML(t)).join('')}</div>`
+    : `<div class="premium-card" style="padding:24px; text-align:center; color:var(--ink-4)">
+        <div style="font-size:32px; margin-bottom:12px">✨</div>
+        <p style="margin-bottom:16px">No tasks for today.</p>
+        <a href="todo.html" class="btn btn-secondary btn-sm">Add a Goal</a>
+      </div>`;
+
+  // Render compact progress in sidebar
+  const sMeta = [
+    {id:'mathematics', name:'Math', icon:'📐', c:'var(--math-c)'},
+    {id:'science', name:'Science', icon:'🔬', c:'var(--sci-c)'},
+    {id:'social-science', name:'SST', icon:'🌍', c:'var(--soc-c)'}
+  ];
+  document.getElementById('progressCompact').innerHTML = sMeta.map(s=>{
+    const subj = data.subjects.find(x=>x.id===s.id);
+    const pct = subj ? App.getSubjPct(s.id, subj) : 0;
+    const stars = Math.max(0, Math.min(5, Math.round(pct/20)));
+    return `
+      <div class="progress-row">
+        <span class="progress-subject">${s.icon} ${s.name}</span>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" style="width:${pct}%;background:${s.c}"></div>
+        </div>
+        <span class="progress-stars">${'★'.repeat(stars)}${'☆'.repeat(5-stars)}</span>
+      </div>`;
+  }).join('');
+
+  // Initialize Gamification Display
+  if (window.Gamification) {
+    // Render XP bar
+    document.getElementById('xpDisplay').innerHTML = Gamification.renderXPBar();
+    
+    // Render daily goals
+    document.getElementById('dailyGoals').innerHTML = Gamification.renderDailyGoals();
+    
+    // Update streak display
+    const streakEl = document.querySelector('.streak-count');
+    if (streakEl) streakEl.textContent = Gamification.getStreak();
+  }
+});
+
+function getGreeting() {
+  const h = new Date().getHours();
+  if (h < 12) return 'Good Morning';
+  if (h < 17) return 'Good Afternoon';
+  return 'Good Evening';
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,269 @@
+{
+  "subjects": [
+    {
+      "id": "science",
+      "name": "Science",
+      "nameHi": "विज्ञान",
+      "icon": "🔬",
+      "color": "#4A7A3A",
+      "gradient": "linear-gradient(135deg,#4A7A3A,#2A5A1A)",
+      "glow": "rgba(74,122,58,0.10)",
+      "bg": "rgba(74,122,58,0.09)",
+      "border": "rgba(74,122,58,0.22)",
+      "description": "Chemistry, Physics & Biology (CBSE NCERT Class 10)",
+      "chapters": [
+        {
+          "id": "chemical-reactions",
+          "title": "Unit I: Chemical Reactions & Equations",
+          "titleHi": "रासायनिक अभिक्रियाएँ और समीकरण",
+          "duration": "50 min",
+          "unit": "Chemical Substances - Nature & Behaviour",
+          "lessons": [
+            { "id": "l1", "title": "Types of Chemical Reactions", "videoId": "AcAgkU4AUUE", "duration": "20:00" },
+            { "id": "l2", "title": "Balancing Equations", "videoId": "RnGe_9kbGgE", "duration": "15:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Balancing chemical equations - Law of Conservation of Mass", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Types: Combination, Decomposition, Displacement, Double Displacement, Redox", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Exothermic vs Endothermic reactions with examples", "marks": "2", "important": true, "type": "concept" },
+            { "text": "Corrosion and Rancidity - prevention methods", "marks": "2", "important": true, "type": "application" }
+          ]
+        },
+        {
+          "id": "acids-bases",
+          "title": "Unit I: Acids, Bases and Salts",
+          "titleHi": "अम्ल, क्षार और लवण",
+          "duration": "55 min",
+          "unit": "Chemical Substances - Nature & Behaviour",
+          "lessons": [
+            { "id": "l1", "title": "Properties & Reactions", "videoId": "KgIHaBDCOGE", "duration": "20:00" }
+          ],
+          "ncertTopics": [
+            { "text": "pH scale: below 7 acidic, 7 neutral, above 7 basic", "marks": "2", "important": true, "type": "concept" },
+            { "text": "Preparation of NaOH by Chlor-Alkali process", "marks": "3", "important": true, "type": "process" },
+            { "text": "Preparation and uses of Baking Soda (NaHCO₃) and Washing Soda (Na₂CO₃)", "marks": "3", "important": true, "type": "compound" },
+            { "text": "Plaster of Paris: CaSO₄·½H₂O preparation and uses", "marks": "2", "important": true, "type": "compound" }
+          ]
+        },
+        {
+          "id": "metals-nonmetals",
+          "title": "Unit I: Metals and Non-Metals",
+          "titleHi": "धातु और अधातु",
+          "duration": "60 min",
+          "unit": "Chemical Substances - Nature & Behaviour",
+          "lessons": [
+            { "id": "l1", "title": "Properties and Reactivity", "videoId": "DptA9VDwgCc", "duration": "22:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Physical properties: lustre, malleability, ductility, conductivity", "marks": "2", "important": true, "type": "concept" },
+            { "text": "Reactivity Series (K, Na, Ca, Mg, Al, Zn, Fe, Pb, H, Cu, Ag, Au)", "marks": "3", "important": true, "type": "table" },
+            { "text": "Ionic bond formation - electron transfer examples", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Extraction of metals - ore, minerals, gangue, smelting, refining", "marks": "5", "important": true, "type": "process" }
+          ]
+        },
+        {
+          "id": "carbon-compounds",
+          "title": "Unit I: Carbon and its Compounds",
+          "titleHi": "कार्बन और उसके यौगिक",
+          "duration": "70 min",
+          "unit": "Chemical Substances - Nature & Behaviour",
+          "lessons": [
+            { "id": "l1", "title": "Catenation, Homologous Series", "videoId": "Rd4a1X3B61w", "duration": "25:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Catenation and Tetravalency of carbon - reason for vast organic chemistry", "marks": "2", "important": true, "type": "concept" },
+            { "text": "Functional groups: -OH, -CHO, -COOH, -NH₂, Halogens", "marks": "3", "important": true, "type": "table" },
+            { "text": "Ethanol and Ethanoic acid - properties and reactions", "marks": "3", "important": true, "type": "compound" },
+            { "text": "Soaps and Detergents - micelle formation, cleansing action", "marks": "3", "important": true, "type": "application" }
+          ]
+        },
+        {
+          "id": "life-processes",
+          "title": "Unit II: Life Processes",
+          "titleHi": "जैव प्रक्रम",
+          "duration": "65 min",
+          "unit": "World of Living",
+          "lessons": [
+            { "id": "l1", "title": "Nutrition & Respiration", "videoId": "Gim5YuqiPnw", "duration": "22:00" },
+            { "id": "l2", "title": "Transportation & Excretion", "videoId": "X9ZZ6tcxArI", "duration": "20:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Photosynthesis equation and factors affecting it", "marks": "3", "important": true, "type": "process" },
+            { "text": "Aerobic vs Anaerobic respiration with equations", "marks": "3", "important": true, "type": "process" },
+            { "text": "Double circulation in humans - systemic & pulmonary", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Nephron structure and function - urine formation", "marks": "5", "important": true, "type": "diagram" }
+          ]
+        },
+        {
+          "id": "control-coordination",
+          "title": "Unit II: Control and Coordination",
+          "titleHi": "नियंत्रण एवं समन्वय",
+          "duration": "50 min",
+          "unit": "World of Living",
+          "lessons": [
+            { "id": "l1", "title": "Nervous System", "videoId": "Tz1b8K4e1jg", "duration": "18:00" },
+            { "id": "l2", "title": "Hormonal Control", "videoId": "KlfPkr0dCYg", "duration": "16:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Structure and function of neurons", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Reflex action and reflex arc", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Human brain parts and functions", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Plant hormones: auxins, gibberellins, cytokinins", "marks": "2", "important": true, "type": "concept" },
+            { "text": "Endocrine glands and hormones", "marks": "5", "important": true, "type": "diagram" }
+          ]
+        },
+        {
+          "id": "how-organisms-reproduce",
+          "title": "Unit II: How Do Organisms Reproduce",
+          "titleHi": "जीव कैसे जनन करते हैं",
+          "duration": "55 min",
+          "unit": "World of Living",
+          "lessons": [
+            { "id": "l1", "title": "Asexual Reproduction", "videoId": "xVlE-G1QJ8g", "duration": "20:00" },
+            { "id": "l2", "title": "Sexual Reproduction", "videoId": "oPjNKNkd1j8", "duration": "22:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Binary fission, budding, fragmentation, regeneration", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Male and female reproductive systems", "marks": "5", "important": true, "type": "diagram" },
+            { "text": "Fertilization in humans and plants", "marks": "3", "important": true, "type": "process" },
+            { "text": "Contraceptive methods", "marks": "2", "important": true, "type": "concept" }
+          ]
+        },
+        {
+          "id": "heredity-evolution",
+          "title": "Unit II: Heredity and Evolution",
+          "titleHi": "आनुवंशिकता और विकास",
+          "duration": "50 min",
+          "unit": "World of Living",
+          "lessons": [
+            { "id": "l1", "title": "Mendel's Laws", "videoId": "7X3z8b0xU4U", "duration": "18:00" },
+            { "id": "l2", "title": "Evolution and Speciation", "videoId": "9y3iP0l1wQw", "duration": "17:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Mendel's experiments and laws of inheritance", "marks": "5", "important": true, "type": "concept" },
+            { "text": "Sex determination in humans", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Evolution and natural selection", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Speciation and genetic drift", "marks": "2", "important": true, "type": "concept" }
+          ]
+        },
+        {
+          "id": "light-reflection-refraction",
+          "title": "Unit III: Light - Reflection and Refraction",
+          "titleHi": "प्रकाश - परावर्तन और अपवर्तन",
+          "duration": "60 min",
+          "unit": "Natural Phenomena",
+          "lessons": [
+            { "id": "l1", "title": "Laws of Reflection", "videoId": "F6q5CS2Iq6U", "duration": "20:00" },
+            { "id": "l2", "title": "Refraction and Lenses", "videoId": "9Gi6RH2JXrE", "duration": "22:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Laws of reflection and image formation by plane mirrors", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Spherical mirrors: concave and convex", "marks": "5", "important": true, "type": "concept" },
+            { "text": "Mirror formula and magnification", "marks": "3", "important": true, "type": "formula" },
+            { "text": "Refraction of light through glass slab and lenses", "marks": "5", "important": true, "type": "concept" },
+            { "text": "Lens formula and power of lens", "marks": "3", "important": true, "type": "formula" }
+          ]
+        },
+        {
+          "id": "human-eye",
+          "title": "Unit III: Human Eye and Colourful World",
+          "titleHi": "मानव नेत्र और रंगीन संसार",
+          "duration": "45 min",
+          "unit": "Natural Phenomena",
+          "lessons": [
+            { "id": "l1", "title": "Structure of Human Eye", "videoId": "9Iy1dX1y1z8", "duration": "15:00" },
+            { "id": "l2", "title": "Dispersion and Scattering", "videoId": "3s7U7cK8x3Y", "duration": "14:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Structure and working of human eye", "marks": "3", "important": true, "type": "diagram" },
+            { "text": "Defects of vision: myopia, hypermetropia, presbyopia", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Dispersion of white light through prism", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Atmospheric refraction and scattering", "marks": "2", "important": true, "type": "concept" }
+          ]
+        },
+        {
+          "id": "electricity",
+          "title": "Unit IV: Electricity",
+          "titleHi": "विद्युत",
+          "duration": "55 min",
+          "unit": "Effects of Current",
+          "lessons": [
+            { "id": "l1", "title": "Electric Current and Circuits", "videoId": "4y7EJq9k8wU", "duration": "20:00" },
+            { "id": "l2", "title": "Ohm's Law and Resistance", "videoId": "8y8r9y9y9y9", "duration": "18:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Electric current, potential difference and resistance", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Ohm's Law: V = IR", "marks": "3", "important": true, "type": "formula" },
+            { "text": "Resistors in series and parallel", "marks": "5", "important": true, "type": "concept" },
+            { "text": "Heating effect of electric current: Joule's Law", "marks": "3", "important": true, "type": "formula" }
+          ]
+        },
+        {
+          "id": "magnetic-effects",
+          "title": "Unit IV: Magnetic Effects of Electric Current",
+          "titleHi": "विद्युत धारा के चुंबकीय प्रभाव",
+          "duration": "50 min",
+          "unit": "Effects of Current",
+          "lessons": [
+            { "id": "l1", "title": "Magnetic Field and Force", "videoId": "7y6T5R4E3W2", "duration": "18:00" },
+            { "id": "l2", "title": "Electric Motor and Generator", "videoId": "3q2E5R6T7Y8", "duration": "17:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Magnetic field due to current carrying conductor", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Fleming's Left Hand Rule", "marks": "2", "important": true, "type": "rule" },
+            { "text": "Electric motor and its working", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Electromagnetic induction and generator", "marks": "5", "important": true, "type": "concept" },
+            { "text": "Domestic electric circuits", "marks": "3", "important": true, "type": "concept" }
+          ]
+        },
+        {
+          "id": "sources-of-energy",
+          "title": "Unit V: Sources of Energy",
+          "titleHi": "ऊर्जा के स्रोत",
+          "duration": "40 min",
+          "unit": "Natural Resources",
+          "lessons": [
+            { "id": "l1", "title": "Renewable and Non-renewable Sources", "videoId": "2w1E2R3T4Y5", "duration": "15:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Conventional and non-conventional sources of energy", "marks": "2", "important": true, "type": "concept" },
+            { "text": "Solar, wind, hydro, biomass energy", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Fossil fuels and environmental concerns", "marks": "3", "important": true, "type": "concept" }
+          ]
+        },
+        {
+          "id": "environment",
+          "title": "Unit V: Our Environment",
+          "titleHi": "हमारा पर्यावरण",
+          "duration": "35 min",
+          "unit": "Natural Resources",
+          "lessons": [
+            { "id": "l1", "title": "Ecosystem and Food Chains", "videoId": "1q1W2E3R4T5", "duration": "14:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Ecosystem components and food chains", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Trophic levels and energy flow", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Biodegradable and non-biodegradable substances", "marks": "2", "important": true, "type": "concept" },
+            { "text": "Ozone layer depletion", "marks": "2", "important": true, "type": "concept" }
+          ]
+        },
+        {
+          "id": "natural-resources",
+          "title": "Unit V: Management of Natural Resources",
+          "titleHi": "प्राकृतिक संसाधनों का प्रबंधन",
+          "duration": "40 min",
+          "unit": "Natural Resources",
+          "lessons": [
+            { "id": "l1", "title": "Conservation and Management", "videoId": "6y6U5I4O3P2", "duration": "16:00" }
+          ],
+          "ncertTopics": [
+            { "text": "3R principle: Reduce, Reuse, Recycle", "marks": "2", "important": true, "type": "concept" },
+            { "text": "Water conservation and rainwater harvesting", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Forest and wildlife conservation", "marks": "3", "important": true, "type": "concept" },
+            { "text": "Sustainable development", "marks": "2", "important": true, "type": "concept" }
+          ]
+        }
+      ]
+    }
+  ]
+}

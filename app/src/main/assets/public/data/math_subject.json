@@ -1,0 +1,228 @@
+{
+  "subjects": [
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "nameHi": "गणित",
+      "icon": "📐",
+      "color": "#D4A017",
+      "gradient": "linear-gradient(135deg,#D4A017,#9A7210)",
+      "glow": "rgba(212,160,23,0.10)",
+      "bg": "rgba(212,160,23,0.09)",
+      "border": "rgba(212,160,23,0.22)",
+      "description": "Number Systems, Algebra, Geometry, Trigonometry, Mensuration & Statistics",
+      "chapters": [
+        {
+          "id": "real-numbers",
+          "title": "Unit I: Real Numbers",
+          "titleHi": "वास्तविक संख्याएँ",
+          "duration": "45 min",
+          "unit": "Number Systems",
+          "lessons": [
+            { "id": "l1", "title": "Euclid's Division Lemma", "videoId": "ySWSfMiFoFk", "duration": "12:30" },
+            { "id": "l2", "title": "Fundamental Theorem of Arithmetic", "videoId": "p3MVgVTj9Vs", "duration": "18:45" }
+          ],
+          "ncertTopics": [
+            { "text": "Euclid's Division Lemma: a = bq + r, 0 ≤ r < b", "marks": "3", "important": true, "type": "theorem" },
+            { "text": "Fundamental Theorem of Arithmetic - Unique Prime Factorization", "marks": "3", "important": true, "type": "theorem" },
+            { "text": "Proof that √2, √3 are irrational numbers", "marks": "3", "important": true, "type": "proof" },
+            { "text": "HCF and LCM using prime factorization", "marks": "2", "important": true, "type": "concept" },
+            { "text": "Decimal expansions of rational numbers", "marks": "2", "important": false, "type": "concept" }
+          ]
+        },
+        {
+          "id": "polynomials",
+          "title": "Unit II: Polynomials",
+          "titleHi": "बहुपद",
+          "duration": "50 min",
+          "unit": "Algebra",
+          "lessons": [
+            { "id": "l1", "title": "Zeroes of Polynomials", "videoId": "ffLLmV51l3Y", "duration": "15:20" },
+            { "id": "l2", "title": "Division Algorithm", "videoId": "VYpNG5Nj0ek", "duration": "20:10" }
+          ],
+          "ncertTopics": [
+            { "text": "Relationship between zeroes and coefficients of quadratic polynomial", "marks": "3", "important": true, "type": "formula" },
+            { "text": "Division Algorithm for polynomials: p(x) = g(x)·q(x) + r(x)", "marks": "3", "important": true, "type": "theorem" },
+            { "text": "Finding zeroes of quadratic polynomials geometrically", "marks": "2", "important": true, "type": "concept" },
+            { "text": "Cubic polynomial: sum of zeroes, sum of product of pairs", "marks": "3", "important": false, "type": "formula" }
+          ]
+        },
+        {
+          "id": "linear-equations",
+          "title": "Unit II: Pair of Linear Equations",
+          "titleHi": "रैखिक समीकरण युग्म",
+          "duration": "60 min",
+          "unit": "Algebra",
+          "lessons": [
+            { "id": "l1", "title": "Methods of Solving", "videoId": "RdehfQJ8i_0", "duration": "22:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Graphical method - intersection point is the solution", "marks": "2", "important": true, "type": "concept" },
+            { "text": "Substitution and Elimination methods", "marks": "3", "important": true, "type": "method" },
+            { "text": "Cross-multiplication method", "marks": "3", "important": true, "type": "method" },
+            { "text": "Consistency conditions: a₁/a₂, b₁/b₂, c₁/c₂ ratios", "marks": "3", "important": true, "type": "concept" }
+          ]
+        },
+        {
+          "id": "quadratic-equations",
+          "title": "Unit II: Quadratic Equations",
+          "titleHi": "द्विघात समीकरण",
+          "duration": "50 min",
+          "unit": "Algebra",
+          "lessons": [
+            { "id": "l1", "title": "Solution Methods", "videoId": "2y5E2R3T4Y5", "duration": "20:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Standard form: ax² + bx + c = 0", "marks": "1", "important": true, "type": "concept" },
+            { "text": "Factorization method", "marks": "3", "important": true, "type": "method" },
+            { "text": "Quadratic formula: x = (-b ± √(b²-4ac))/2a", "marks": "3", "important": true, "type": "formula" },
+            { "text": "Nature of roots based on discriminant", "marks": "3", "important": true, "type": "concept" }
+          ]
+        },
+        {
+          "id": "arithmetic-progressions",
+          "title": "Unit II: Arithmetic Progressions",
+          "titleHi": "समांतर श्रेढ़ी",
+          "duration": "45 min",
+          "unit": "Algebra",
+          "lessons": [
+            { "id": "l1", "title": "nth Term and Sum", "videoId": "3z4E5R6T7Y8", "duration": "18:00" }
+          ],
+          "ncertTopics": [
+            { "text": "nth term: aₙ = a + (n-1)d", "marks": "2", "important": true, "type": "formula" },
+            { "text": "Sum of n terms: Sₙ = n/2[2a + (n-1)d] or n/2[a + l]", "marks": "3", "important": true, "type": "formula" },
+            { "text": "Application problems", "marks": "3", "important": true, "type": "application" }
+          ]
+        },
+        {
+          "id": "coordinate-geometry",
+          "title": "Unit III: Coordinate Geometry",
+          "titleHi": "निर्देशांक ज्यामिति",
+          "duration": "50 min",
+          "unit": "Coordinate Geometry",
+          "lessons": [
+            { "id": "l1", "title": "Distance Formula", "videoId": "4a5B6C7D8E9", "duration": "15:00" },
+            { "id": "l2", "title": "Section Formula", "videoId": "5b6C7D8E9F0", "duration": "16:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Distance formula: √[(x₂-x₁)² + (y₂-y₁)²]", "marks": "3", "important": true, "type": "formula" },
+            { "text": "Section formula for internal division", "marks": "3", "important": true, "type": "formula" },
+            { "text": "Area of triangle using coordinates", "marks": "3", "important": true, "type": "formula" },
+            { "text": "Collinearity of points", "marks": "2", "important": true, "type": "concept" }
+          ]
+        },
+        {
+          "id": "trigonometry",
+          "title": "Unit IV: Trigonometry",
+          "titleHi": "त्रिकोणमिति",
+          "duration": "65 min",
+          "unit": "Trigonometry",
+          "lessons": [
+            { "id": "l1", "title": "Trigonometric Ratios & Identities", "videoId": "F21S9Wpi0y8", "duration": "25:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Trigonometric ratios: sin, cos, tan, cosec, sec, cot", "marks": "2", "important": true, "type": "concept" },
+            { "text": "Values at 0°, 30°, 45°, 60°, 90° - must memorize", "marks": "3", "important": true, "type": "table" },
+            { "text": "Fundamental Identity: sin²θ + cos²θ = 1", "marks": "3", "important": true, "type": "identity" },
+            { "text": "Complementary angles: sin(90-θ) = cosθ", "marks": "2", "important": true, "type": "concept" },
+            { "text": "Heights and Distances - angle of elevation, depression", "marks": "5", "important": true, "type": "application" }
+          ]
+        },
+        {
+          "id": "triangles",
+          "title": "Unit V: Triangles",
+          "titleHi": "त्रिभुज",
+          "duration": "55 min",
+          "unit": "Geometry",
+          "lessons": [
+            { "id": "l1", "title": "Similar Triangles & BPT", "videoId": "B3PFTYLkOFY", "duration": "22:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Basic Proportionality Theorem (Thales Theorem)", "marks": "3", "important": true, "type": "theorem" },
+            { "text": "Criteria of similarity: AA, SAS, SSS", "marks": "3", "important": true, "type": "theorem" },
+            { "text": "Ratio of areas of similar triangles", "marks": "3", "important": true, "type": "theorem" },
+            { "text": "Pythagoras Theorem proof and converse", "marks": "5", "important": true, "type": "proof" }
+          ]
+        },
+        {
+          "id": "circles",
+          "title": "Unit V: Circles",
+          "titleHi": "वृत्त",
+          "duration": "50 min",
+          "unit": "Geometry",
+          "lessons": [
+            { "id": "l1", "title": "Tangents and Properties", "videoId": "6d7E8F9G0H1", "duration": "20:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Tangent to a circle - perpendicular to radius", "marks": "2", "important": true, "type": "theorem" },
+            { "text": "Lengths of tangents from external point are equal", "marks": "3", "important": true, "type": "theorem" },
+            { "text": "Number of tangents from a point", "marks": "2", "important": true, "type": "concept" }
+          ]
+        },
+        {
+          "id": "constructions",
+          "title": "Unit V: Constructions",
+          "titleHi": "रचनाएँ",
+          "duration": "40 min",
+          "unit": "Geometry",
+          "lessons": [
+            { "id": "l1", "title": "Division and Tangents", "videoId": "7e8F9G0H1I2", "duration": "16:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Division of line segment in given ratio", "marks": "3", "important": true, "type": "construction" },
+            { "text": "Construction of similar triangles", "marks": "3", "important": true, "type": "construction" },
+            { "text": "Construction of tangents to circle", "marks": "3", "important": true, "type": "construction" }
+          ]
+        },
+        {
+          "id": "mensuration",
+          "title": "Unit VI: Surface Areas and Volumes",
+          "titleHi": "पृष्ठीय क्षेत्रफल और आयतन",
+          "duration": "55 min",
+          "unit": "Mensuration",
+          "lessons": [
+            { "id": "l1", "title": "3D Shapes Formulas", "videoId": "8f9G0H1I2J3", "duration": "22:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Surface area and volume of cube, cuboid", "marks": "2", "important": true, "type": "formula" },
+            { "text": "Surface area and volume of cylinder", "marks": "3", "important": true, "type": "formula" },
+            { "text": "Surface area and volume of cone", "marks": "3", "important": true, "type": "formula" },
+            { "text": "Surface area and volume of sphere and hemisphere", "marks": "3", "important": true, "type": "formula" },
+            { "text": "Frustum of cone", "marks": "3", "important": true, "type": "formula" }
+          ]
+        },
+        {
+          "id": "statistics",
+          "title": "Unit VII: Statistics",
+          "titleHi": "सांख्यिकी",
+          "duration": "45 min",
+          "unit": "Statistics & Probability",
+          "lessons": [
+            { "id": "l1", "title": "Mean, Median, Mode", "videoId": "9g0H1I2J3K4", "duration": "18:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Mean of grouped data - direct method, assumed mean", "marks": "3", "important": true, "type": "method" },
+            { "text": "Mode of grouped data", "marks": "3", "important": true, "type": "formula" },
+            { "text": "Median of grouped data", "marks": "3", "important": true, "type": "formula" },
+            { "text": "Cumulative frequency curve (Ogive)", "marks": "3", "important": true, "type": "concept" }
+          ]
+        },
+        {
+          "id": "probability",
+          "title": "Unit VII: Probability",
+          "titleHi": "प्रायिकता",
+          "duration": "40 min",
+          "unit": "Statistics & Probability",
+          "lessons": [
+            { "id": "l1", "title": "Theoretical Probability", "videoId": "0H1I2J3K4L5", "duration": "15:00" }
+          ],
+          "ncertTopics": [
+            { "text": "Probability: P(E) = Number of favourable outcomes / Total outcomes", "marks": "2", "important": true, "type": "formula" },
+            { "text": "Range of probability: 0 ≤ P(E) ≤ 1", "marks": "1", "important": true, "type": "concept" },
+            { "text": "Complementary events", "marks": "2", "important": true, "type": "concept" }
+          ]
+        }
+      ]
+    }
+  ]
+}

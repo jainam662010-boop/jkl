@@ -1,0 +1,2121 @@
+{
+  "subjects": [
+    {
+      "id": "science",
+      "name": "Science",
+      "nameHi": "विज्ञान",
+      "icon": "🔬",
+      "color": "#4A7A3A",
+      "gradient": "linear-gradient(135deg,#4A7A3A,#2A5A1A)",
+      "glow": "rgba(74,122,58,0.10)",
+      "bg": "rgba(74,122,58,0.09)",
+      "border": "rgba(74,122,58,0.22)",
+      "description": "Chemistry, Physics & Biology (CBSE NCERT Class 10)",
+      "chapters": [
+        {
+          "id": "chemical-reactions",
+          "title": "Unit I: Chemical Reactions & Equations",
+          "titleHi": "रासायनिक अभिक्रियाएँ और समीकरण",
+          "duration": "50 min",
+          "unit": "Chemical Substances - Nature & Behaviour",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Types of Chemical Reactions",
+              "videoId": "AcAgkU4AUUE",
+              "duration": "20:00"
+            },
+            {
+              "id": "l2",
+              "title": "Balancing Equations",
+              "videoId": "RnGe_9kbGgE",
+              "duration": "15:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Balancing chemical equations - Law of Conservation of Mass",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Types: Combination, Decomposition, Displacement, Double Displacement, Redox",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Exothermic vs Endothermic reactions with examples",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Corrosion and Rancidity - prevention methods",
+              "marks": "2",
+              "important": true,
+              "type": "application"
+            }
+          ]
+        },
+        {
+          "id": "acids-bases",
+          "title": "Unit I: Acids, Bases and Salts",
+          "titleHi": "अम्ल, क्षार और लवण",
+          "duration": "55 min",
+          "unit": "Chemical Substances - Nature & Behaviour",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Properties & Reactions",
+              "videoId": "KgIHaBDCOGE",
+              "duration": "20:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "pH scale: below 7 acidic, 7 neutral, above 7 basic",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Preparation of NaOH by Chlor-Alkali process",
+              "marks": "3",
+              "important": true,
+              "type": "process"
+            },
+            {
+              "text": "Preparation and uses of Baking Soda (NaHCO₃) and Washing Soda (Na₂CO₃)",
+              "marks": "3",
+              "important": true,
+              "type": "compound"
+            },
+            {
+              "text": "Plaster of Paris: CaSO₄·½H₂O preparation and uses",
+              "marks": "2",
+              "important": true,
+              "type": "compound"
+            }
+          ]
+        },
+        {
+          "id": "metals-nonmetals",
+          "title": "Unit I: Metals and Non-Metals",
+          "titleHi": "धातु और अधातु",
+          "duration": "60 min",
+          "unit": "Chemical Substances - Nature & Behaviour",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Properties and Reactivity",
+              "videoId": "DptA9VDwgCc",
+              "duration": "22:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Physical properties: lustre, malleability, ductility, conductivity",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Reactivity Series (K, Na, Ca, Mg, Al, Zn, Fe, Pb, H, Cu, Ag, Au)",
+              "marks": "3",
+              "important": true,
+              "type": "table"
+            },
+            {
+              "text": "Ionic bond formation - electron transfer examples",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Extraction of metals - ore, minerals, gangue, smelting, refining",
+              "marks": "5",
+              "important": true,
+              "type": "process"
+            }
+          ]
+        },
+        {
+          "id": "carbon-compounds",
+          "title": "Unit I: Carbon and its Compounds",
+          "titleHi": "कार्बन और उसके यौगिक",
+          "duration": "70 min",
+          "unit": "Chemical Substances - Nature & Behaviour",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Catenation, Homologous Series",
+              "videoId": "Rd4a1X3B61w",
+              "duration": "25:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Catenation and Tetravalency of carbon - reason for vast organic chemistry",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Functional groups: -OH, -CHO, -COOH, -NH₂, Halogens",
+              "marks": "3",
+              "important": true,
+              "type": "table"
+            },
+            {
+              "text": "Ethanol and Ethanoic acid - properties and reactions",
+              "marks": "3",
+              "important": true,
+              "type": "compound"
+            },
+            {
+              "text": "Soaps and Detergents - micelle formation, cleansing action",
+              "marks": "3",
+              "important": true,
+              "type": "application"
+            }
+          ]
+        },
+        {
+          "id": "life-processes",
+          "title": "Unit II: Life Processes",
+          "titleHi": "जैव प्रक्रम",
+          "duration": "65 min",
+          "unit": "World of Living",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Nutrition & Respiration",
+              "videoId": "Gim5YuqiPnw",
+              "duration": "22:00"
+            },
+            {
+              "id": "l2",
+              "title": "Transportation & Excretion",
+              "videoId": "X9ZZ6tcxArI",
+              "duration": "20:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Photosynthesis equation and factors affecting it",
+              "marks": "3",
+              "important": true,
+              "type": "process"
+            },
+            {
+              "text": "Aerobic vs Anaerobic respiration with equations",
+              "marks": "3",
+              "important": true,
+              "type": "process"
+            },
+            {
+              "text": "Double circulation in humans - systemic & pulmonary",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Nephron structure and function - urine formation",
+              "marks": "5",
+              "important": true,
+              "type": "diagram"
+            }
+          ]
+        },
+        {
+          "id": "control-coordination",
+          "title": "Unit II: Control and Coordination",
+          "titleHi": "नियंत्रण एवं समन्वय",
+          "duration": "50 min",
+          "unit": "World of Living",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Nervous System",
+              "videoId": "Tz1b8K4e1jg",
+              "duration": "18:00"
+            },
+            {
+              "id": "l2",
+              "title": "Hormonal Control",
+              "videoId": "KlfPkr0dCYg",
+              "duration": "16:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Structure and function of neurons",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Reflex action and reflex arc",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Human brain parts and functions",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Plant hormones: auxins, gibberellins, cytokinins",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Endocrine glands and hormones",
+              "marks": "5",
+              "important": true,
+              "type": "diagram"
+            }
+          ]
+        },
+        {
+          "id": "how-organisms-reproduce",
+          "title": "Unit II: How Do Organisms Reproduce",
+          "titleHi": "जीव कैसे जनन करते हैं",
+          "duration": "55 min",
+          "unit": "World of Living",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Asexual Reproduction",
+              "videoId": "xVlE-G1QJ8g",
+              "duration": "20:00"
+            },
+            {
+              "id": "l2",
+              "title": "Sexual Reproduction",
+              "videoId": "oPjNKNkd1j8",
+              "duration": "22:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Binary fission, budding, fragmentation, regeneration",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Male and female reproductive systems",
+              "marks": "5",
+              "important": true,
+              "type": "diagram"
+            },
+            {
+              "text": "Fertilization in humans and plants",
+              "marks": "3",
+              "important": true,
+              "type": "process"
+            },
+            {
+              "text": "Contraceptive methods",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "heredity-evolution",
+          "title": "Unit II: Heredity and Evolution",
+          "titleHi": "आनुवंशिकता और विकास",
+          "duration": "50 min",
+          "unit": "World of Living",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Mendel's Laws",
+              "videoId": "7X3z8b0xU4U",
+              "duration": "18:00"
+            },
+            {
+              "id": "l2",
+              "title": "Evolution and Speciation",
+              "videoId": "9y3iP0l1wQw",
+              "duration": "17:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Mendel's experiments and laws of inheritance",
+              "marks": "5",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Sex determination in humans",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Evolution and natural selection",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Speciation and genetic drift",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "light-reflection-refraction",
+          "title": "Unit III: Light - Reflection and Refraction",
+          "titleHi": "प्रकाश - परावर्तन और अपवर्तन",
+          "duration": "60 min",
+          "unit": "Natural Phenomena",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Laws of Reflection",
+              "videoId": "F6q5CS2Iq6U",
+              "duration": "20:00"
+            },
+            {
+              "id": "l2",
+              "title": "Refraction and Lenses",
+              "videoId": "9Gi6RH2JXrE",
+              "duration": "22:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Laws of reflection and image formation by plane mirrors",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Spherical mirrors: concave and convex",
+              "marks": "5",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Mirror formula and magnification",
+              "marks": "3",
+              "important": true,
+              "type": "formula"
+            },
+            {
+              "text": "Refraction of light through glass slab and lenses",
+              "marks": "5",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Lens formula and power of lens",
+              "marks": "3",
+              "important": true,
+              "type": "formula"
+            }
+          ]
+        },
+        {
+          "id": "human-eye",
+          "title": "Unit III: Human Eye and Colourful World",
+          "titleHi": "मानव नेत्र और रंगीन संसार",
+          "duration": "45 min",
+          "unit": "Natural Phenomena",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Structure of Human Eye",
+              "videoId": "9Iy1dX1y1z8",
+              "duration": "15:00"
+            },
+            {
+              "id": "l2",
+              "title": "Dispersion and Scattering",
+              "videoId": "3s7U7cK8x3Y",
+              "duration": "14:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Structure and working of human eye",
+              "marks": "3",
+              "important": true,
+              "type": "diagram"
+            },
+            {
+              "text": "Defects of vision: myopia, hypermetropia, presbyopia",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Dispersion of white light through prism",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Atmospheric refraction and scattering",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "electricity",
+          "title": "Unit IV: Electricity",
+          "titleHi": "विद्युत",
+          "duration": "55 min",
+          "unit": "Effects of Current",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Electric Current and Circuits",
+              "videoId": "4y7EJq9k8wU",
+              "duration": "20:00"
+            },
+            {
+              "id": "l2",
+              "title": "Ohm's Law and Resistance",
+              "videoId": "8y8r9y9y9y9",
+              "duration": "18:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Electric current, potential difference and resistance",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Ohm's Law: V = IR",
+              "marks": "3",
+              "important": true,
+              "type": "formula"
+            },
+            {
+              "text": "Resistors in series and parallel",
+              "marks": "5",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Heating effect of electric current: Joule's Law",
+              "marks": "3",
+              "important": true,
+              "type": "formula"
+            }
+          ]
+        },
+        {
+          "id": "magnetic-effects",
+          "title": "Unit IV: Magnetic Effects of Electric Current",
+          "titleHi": "विद्युत धारा के चुंबकीय प्रभाव",
+          "duration": "50 min",
+          "unit": "Effects of Current",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Magnetic Field and Force",
+              "videoId": "7y6T5R4E3W2",
+              "duration": "18:00"
+            },
+            {
+              "id": "l2",
+              "title": "Electric Motor and Generator",
+              "videoId": "3q2E5R6T7Y8",
+              "duration": "17:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Magnetic field due to current carrying conductor",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Fleming's Left Hand Rule",
+              "marks": "2",
+              "important": true,
+              "type": "rule"
+            },
+            {
+              "text": "Electric motor and its working",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Electromagnetic induction and generator",
+              "marks": "5",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Domestic electric circuits",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "sources-of-energy",
+          "title": "Unit V: Sources of Energy",
+          "titleHi": "ऊर्जा के स्रोत",
+          "duration": "40 min",
+          "unit": "Natural Resources",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Renewable and Non-renewable Sources",
+              "videoId": "2w1E2R3T4Y5",
+              "duration": "15:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Conventional and non-conventional sources of energy",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Solar, wind, hydro, biomass energy",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Fossil fuels and environmental concerns",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "environment",
+          "title": "Unit V: Our Environment",
+          "titleHi": "हमारा पर्यावरण",
+          "duration": "35 min",
+          "unit": "Natural Resources",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Ecosystem and Food Chains",
+              "videoId": "1q1W2E3R4T5",
+              "duration": "14:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Ecosystem components and food chains",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Trophic levels and energy flow",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Biodegradable and non-biodegradable substances",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Ozone layer depletion",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "natural-resources",
+          "title": "Unit V: Management of Natural Resources",
+          "titleHi": "प्राकृतिक संसाधनों का प्रबंधन",
+          "duration": "40 min",
+          "unit": "Natural Resources",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Conservation and Management",
+              "videoId": "6y6U5I4O3P2",
+              "duration": "16:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "3R principle: Reduce, Reuse, Recycle",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Water conservation and rainwater harvesting",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Forest and wildlife conservation",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Sustainable development",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "nameHi": "गणित",
+      "icon": "📐",
+      "color": "#D4A017",
+      "gradient": "linear-gradient(135deg,#D4A017,#9A7210)",
+      "glow": "rgba(212,160,23,0.10)",
+      "bg": "rgba(212,160,23,0.09)",
+      "border": "rgba(212,160,23,0.22)",
+      "description": "Number Systems, Algebra, Geometry, Trigonometry, Mensuration & Statistics",
+      "chapters": [
+        {
+          "id": "real-numbers",
+          "title": "Unit I: Real Numbers",
+          "titleHi": "वास्तविक संख्याएँ",
+          "duration": "45 min",
+          "unit": "Number Systems",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Euclid's Division Lemma",
+              "videoId": "ySWSfMiFoFk",
+              "duration": "12:30"
+            },
+            {
+              "id": "l2",
+              "title": "Fundamental Theorem of Arithmetic",
+              "videoId": "p3MVgVTj9Vs",
+              "duration": "18:45"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Euclid's Division Lemma: a = bq + r, 0 ≤ r < b",
+              "marks": "3",
+              "important": true,
+              "type": "theorem"
+            },
+            {
+              "text": "Fundamental Theorem of Arithmetic - Unique Prime Factorization",
+              "marks": "3",
+              "important": true,
+              "type": "theorem"
+            },
+            {
+              "text": "Proof that √2, √3 are irrational numbers",
+              "marks": "3",
+              "important": true,
+              "type": "proof"
+            },
+            {
+              "text": "HCF and LCM using prime factorization",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Decimal expansions of rational numbers",
+              "marks": "2",
+              "important": false,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "polynomials",
+          "title": "Unit II: Polynomials",
+          "titleHi": "बहुपद",
+          "duration": "50 min",
+          "unit": "Algebra",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Zeroes of Polynomials",
+              "videoId": "ffLLmV51l3Y",
+              "duration": "15:20"
+            },
+            {
+              "id": "l2",
+              "title": "Division Algorithm",
+              "videoId": "VYpNG5Nj0ek",
+              "duration": "20:10"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Relationship between zeroes and coefficients of quadratic polynomial",
+              "marks": "3",
+              "important": true,
+              "type": "formula"
+            },
+            {
+              "text": "Division Algorithm for polynomials: p(x) = g(x)·q(x) + r(x)",
+              "marks": "3",
+              "important": true,
+              "type": "theorem"
+            },
+            {
+              "text": "Finding zeroes of quadratic polynomials geometrically",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Cubic polynomial: sum of zeroes, sum of product of pairs",
+              "marks": "3",
+              "important": false,
+              "type": "formula"
+            }
+          ]
+        },
+        {
+          "id": "linear-equations",
+          "title": "Unit II: Pair of Linear Equations",
+          "titleHi": "रैखिक समीकरण युग्म",
+          "duration": "60 min",
+          "unit": "Algebra",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Methods of Solving",
+              "videoId": "RdehfQJ8i_0",
+              "duration": "22:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Graphical method - intersection point is the solution",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Substitution and Elimination methods",
+              "marks": "3",
+              "important": true,
+              "type": "method"
+            },
+            {
+              "text": "Cross-multiplication method",
+              "marks": "3",
+              "important": true,
+              "type": "method"
+            },
+            {
+              "text": "Consistency conditions: a₁/a₂, b₁/b₂, c₁/c₂ ratios",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "quadratic-equations",
+          "title": "Unit II: Quadratic Equations",
+          "titleHi": "द्विघात समीकरण",
+          "duration": "50 min",
+          "unit": "Algebra",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Solution Methods",
+              "videoId": "2y5E2R3T4Y5",
+              "duration": "20:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Standard form: ax² + bx + c = 0",
+              "marks": "1",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Factorization method",
+              "marks": "3",
+              "important": true,
+              "type": "method"
+            },
+            {
+              "text": "Quadratic formula: x = (-b ± √(b²-4ac))/2a",
+              "marks": "3",
+              "important": true,
+              "type": "formula"
+            },
+            {
+              "text": "Nature of roots based on discriminant",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "arithmetic-progressions",
+          "title": "Unit II: Arithmetic Progressions",
+          "titleHi": "समांतर श्रेढ़ी",
+          "duration": "45 min",
+          "unit": "Algebra",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "nth Term and Sum",
+              "videoId": "3z4E5R6T7Y8",
+              "duration": "18:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "nth term: aₙ = a + (n-1)d",
+              "marks": "2",
+              "important": true,
+              "type": "formula"
+            },
+            {
+              "text": "Sum of n terms: Sₙ = n/2[2a + (n-1)d] or n/2[a + l]",
+              "marks": "3",
+              "important": true,
+              "type": "formula"
+            },
+            {
+              "text": "Application problems",
+              "marks": "3",
+              "important": true,
+              "type": "application"
+            }
+          ]
+        },
+        {
+          "id": "coordinate-geometry",
+          "title": "Unit III: Coordinate Geometry",
+          "titleHi": "निर्देशांक ज्यामिति",
+          "duration": "50 min",
+          "unit": "Coordinate Geometry",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Distance Formula",
+              "videoId": "4a5B6C7D8E9",
+              "duration": "15:00"
+            },
+            {
+              "id": "l2",
+              "title": "Section Formula",
+              "videoId": "5b6C7D8E9F0",
+              "duration": "16:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Distance formula: √[(x₂-x₁)² + (y₂-y₁)²]",
+              "marks": "3",
+              "important": true,
+              "type": "formula"
+            },
+            {
+              "text": "Section formula for internal division",
+              "marks": "3",
+              "important": true,
+              "type": "formula"
+            },
+            {
+              "text": "Area of triangle using coordinates",
+              "marks": "3",
+              "important": true,
+              "type": "formula"
+            },
+            {
+              "text": "Collinearity of points",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "trigonometry",
+          "title": "Unit IV: Trigonometry",
+          "titleHi": "त्रिकोणमिति",
+          "duration": "65 min",
+          "unit": "Trigonometry",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Trigonometric Ratios & Identities",
+              "videoId": "F21S9Wpi0y8",
+              "duration": "25:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Trigonometric ratios: sin, cos, tan, cosec, sec, cot",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Values at 0°, 30°, 45°, 60°, 90° - must memorize",
+              "marks": "3",
+              "important": true,
+              "type": "table"
+            },
+            {
+              "text": "Fundamental Identity: sin²θ + cos²θ = 1",
+              "marks": "3",
+              "important": true,
+              "type": "identity"
+            },
+            {
+              "text": "Complementary angles: sin(90-θ) = cosθ",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Heights and Distances - angle of elevation, depression",
+              "marks": "5",
+              "important": true,
+              "type": "application"
+            }
+          ]
+        },
+        {
+          "id": "triangles",
+          "title": "Unit V: Triangles",
+          "titleHi": "त्रिभुज",
+          "duration": "55 min",
+          "unit": "Geometry",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Similar Triangles & BPT",
+              "videoId": "B3PFTYLkOFY",
+              "duration": "22:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Basic Proportionality Theorem (Thales Theorem)",
+              "marks": "3",
+              "important": true,
+              "type": "theorem"
+            },
+            {
+              "text": "Criteria of similarity: AA, SAS, SSS",
+              "marks": "3",
+              "important": true,
+              "type": "theorem"
+            },
+            {
+              "text": "Ratio of areas of similar triangles",
+              "marks": "3",
+              "important": true,
+              "type": "theorem"
+            },
+            {
+              "text": "Pythagoras Theorem proof and converse",
+              "marks": "5",
+              "important": true,
+              "type": "proof"
+            }
+          ]
+        },
+        {
+          "id": "circles",
+          "title": "Unit V: Circles",
+          "titleHi": "वृत्त",
+          "duration": "50 min",
+          "unit": "Geometry",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Tangents and Properties",
+              "videoId": "6d7E8F9G0H1",
+              "duration": "20:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Tangent to a circle - perpendicular to radius",
+              "marks": "2",
+              "important": true,
+              "type": "theorem"
+            },
+            {
+              "text": "Lengths of tangents from external point are equal",
+              "marks": "3",
+              "important": true,
+              "type": "theorem"
+            },
+            {
+              "text": "Number of tangents from a point",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "constructions",
+          "title": "Unit V: Constructions",
+          "titleHi": "रचनाएँ",
+          "duration": "40 min",
+          "unit": "Geometry",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Division and Tangents",
+              "videoId": "7e8F9G0H1I2",
+              "duration": "16:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Division of line segment in given ratio",
+              "marks": "3",
+              "important": true,
+              "type": "construction"
+            },
+            {
+              "text": "Construction of similar triangles",
+              "marks": "3",
+              "important": true,
+              "type": "construction"
+            },
+            {
+              "text": "Construction of tangents to circle",
+              "marks": "3",
+              "important": true,
+              "type": "construction"
+            }
+          ]
+        },
+        {
+          "id": "mensuration",
+          "title": "Unit VI: Surface Areas and Volumes",
+          "titleHi": "पृष्ठीय क्षेत्रफल और आयतन",
+          "duration": "55 min",
+          "unit": "Mensuration",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "3D Shapes Formulas",
+              "videoId": "8f9G0H1I2J3",
+              "duration": "22:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Surface area and volume of cube, cuboid",
+              "marks": "2",
+              "important": true,
+              "type": "formula"
+            },
+            {
+              "text": "Surface area and volume of cylinder",
+              "marks": "3",
+              "important": true,
+              "type": "formula"
+            },
+            {
+              "text": "Surface area and volume of cone",
+              "marks": "3",
+              "important": true,
+              "type": "formula"
+            },
+            {
+              "text": "Surface area and volume of sphere and hemisphere",
+              "marks": "3",
+              "important": true,
+              "type": "formula"
+            },
+            {
+              "text": "Frustum of cone",
+              "marks": "3",
+              "important": true,
+              "type": "formula"
+            }
+          ]
+        },
+        {
+          "id": "statistics",
+          "title": "Unit VII: Statistics",
+          "titleHi": "सांख्यिकी",
+          "duration": "45 min",
+          "unit": "Statistics & Probability",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Mean, Median, Mode",
+              "videoId": "9g0H1I2J3K4",
+              "duration": "18:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Mean of grouped data - direct method, assumed mean",
+              "marks": "3",
+              "important": true,
+              "type": "method"
+            },
+            {
+              "text": "Mode of grouped data",
+              "marks": "3",
+              "important": true,
+              "type": "formula"
+            },
+            {
+              "text": "Median of grouped data",
+              "marks": "3",
+              "important": true,
+              "type": "formula"
+            },
+            {
+              "text": "Cumulative frequency curve (Ogive)",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "probability",
+          "title": "Unit VII: Probability",
+          "titleHi": "प्रायिकता",
+          "duration": "40 min",
+          "unit": "Statistics & Probability",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Theoretical Probability",
+              "videoId": "0H1I2J3K4L5",
+              "duration": "15:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Probability: P(E) = Number of favourable outcomes / Total outcomes",
+              "marks": "2",
+              "important": true,
+              "type": "formula"
+            },
+            {
+              "text": "Range of probability: 0 ≤ P(E) ≤ 1",
+              "marks": "1",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Complementary events",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "social-science",
+      "name": "Social Science",
+      "nameHi": "सामाजिक विज्ञान",
+      "icon": "🌍",
+      "color": "#C85A3C",
+      "gradient": "linear-gradient(135deg,#C85A3C,#8A3A20)",
+      "glow": "rgba(200,90,60,0.10)",
+      "bg": "rgba(200,90,60,0.08)",
+      "border": "rgba(200,90,60,0.22)",
+      "description": "History, Geography, Political Science & Economics",
+      "chapters": [
+        {
+          "id": "nationalism-europe",
+          "title": "History: Nationalism in Europe",
+          "titleHi": "यूरोप में राष्ट्रवाद का उदय",
+          "duration": "55 min",
+          "unit": "History",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "French Revolution & Nationalism",
+              "videoId": "VT69NhHtTaQ",
+              "duration": "20:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Frederic Sorrieu's vision of a democratic and social republic",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Allegories: Germania, Marianne, Britannia, Italia",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Unification of Germany under Bismarck",
+              "marks": "5",
+              "important": true,
+              "type": "event"
+            },
+            {
+              "text": "Frankfurt Parliament 1848",
+              "marks": "3",
+              "important": true,
+              "type": "event"
+            }
+          ]
+        },
+        {
+          "id": "nationalism-india",
+          "title": "History: Nationalism in India",
+          "titleHi": "भारत में राष्ट्रवाद",
+          "duration": "60 min",
+          "unit": "History",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "First World War and Indian Nationalism",
+              "videoId": "1a2B3c4D5e6",
+              "duration": "22:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "First World War, Khilafat and Non-Cooperation",
+              "marks": "5",
+              "important": true,
+              "type": "event"
+            },
+            {
+              "text": "Rowlatt Act and Jallianwala Bagh",
+              "marks": "3",
+              "important": true,
+              "type": "event"
+            },
+            {
+              "text": "Civil Disobedience Movement",
+              "marks": "5",
+              "important": true,
+              "type": "event"
+            },
+            {
+              "text": "Quit India Movement",
+              "marks": "3",
+              "important": true,
+              "type": "event"
+            }
+          ]
+        },
+        {
+          "id": "global-world",
+          "title": "History: Making of a Global World",
+          "titleHi": "वैश्विक दुनिया का निर्माण",
+          "duration": "50 min",
+          "unit": "History",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Silk Routes and Trade",
+              "videoId": "2b3C4d5E6f7",
+              "duration": "18:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Silk Routes and food travel",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Conquest, Disease and Trade",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Nineteenth Century (1815-1914)",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "The Inter-war Economy",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "age-of-industrialisation",
+          "title": "History: The Age of Industrialisation",
+          "titleHi": "औद्योगीकरण का युग",
+          "duration": "50 min",
+          "unit": "History",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Industrial Revolution",
+              "videoId": "3c4D5e6F7g8",
+              "duration": "20:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Before the Industrial Revolution",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Britain: The First Industrial Nation",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Industrialisation in India",
+              "marks": "5",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Factories Come Up and Market for Goods",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "print-culture",
+          "title": "History: Print Culture",
+          "titleHi": "मुद्रण संस्कृति",
+          "duration": "45 min",
+          "unit": "History",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Development of Printing",
+              "videoId": "4d5E6f7G8h9",
+              "duration": "17:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "The First Printed Books",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Print Comes to Europe",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "The Print Revolution and its Impact",
+              "marks": "5",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "India and the World of Print",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "resources-development",
+          "title": "Geography: Resources and Development",
+          "titleHi": "संसाधन और विकास",
+          "duration": "50 min",
+          "unit": "Geography",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Types and Classification of Resources",
+              "videoId": "R0piMGbDJ5M",
+              "duration": "18:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Classification: Biotic/Abiotic, Renewable/Non-renewable",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Land use pattern in India",
+              "marks": "3",
+              "important": true,
+              "type": "data"
+            },
+            {
+              "text": "Soil types in India: Alluvial, Black, Red, Laterite",
+              "marks": "5",
+              "important": true,
+              "type": "table"
+            },
+            {
+              "text": "Soil erosion and conservation",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "forest-wildlife",
+          "title": "Geography: Forest and Wildlife",
+          "titleHi": "वन और वन्यजीव",
+          "duration": "40 min",
+          "unit": "Geography",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Conservation of Biodiversity",
+              "videoId": "5e6F7g8H9i0",
+              "duration": "16:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Flora and Fauna in India",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Vanishing Forests and Conservation",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Types and Distribution of Forests",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Community and Conservation",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "water-resources",
+          "title": "Geography: Water Resources",
+          "titleHi": "जल संसाधन",
+          "duration": "40 min",
+          "unit": "Geography",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Water Scarcity and Conservation",
+              "videoId": "6f7G8h9I0j1",
+              "duration": "16:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Water: Some Facts and Figures",
+              "marks": "2",
+              "important": true,
+              "type": "data"
+            },
+            {
+              "text": "Water Scarcity and The Need for Conservation",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Multi-Purpose River Projects",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Rainwater Harvesting",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "agriculture",
+          "title": "Geography: Agriculture",
+          "titleHi": "कृषि",
+          "duration": "50 min",
+          "unit": "Geography",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Types of Farming",
+              "videoId": "7g8H9i0J1k2",
+              "duration": "20:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Types of Farming in India",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Cropping Pattern and Major Crops",
+              "marks": "5",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Food Security and Impact of Globalisation",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "minerals-energy",
+          "title": "Geography: Minerals and Energy Resources",
+          "titleHi": "खनिज और ऊर्जा संसाधन",
+          "duration": "50 min",
+          "unit": "Geography",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Types of Minerals",
+              "videoId": "8h9I0j1K2l3",
+              "duration": "20:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "What is a Mineral?",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Occurrence and Classification of Minerals",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Conservation of Minerals",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Energy Resources: Conventional and Non-conventional",
+              "marks": "5",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "manufacturing-industries",
+          "title": "Geography: Manufacturing Industries",
+          "titleHi": "विनिर्माण उद्योग",
+          "duration": "50 min",
+          "unit": "Geography",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Types and Location of Industries",
+              "videoId": "9I0j1K2l3M4",
+              "duration": "20:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Importance of Manufacturing",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Contribution of Industry to National Economy",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Industrial Location and Classification",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Agro-Based and Mineral Based Industries",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Industrial Pollution and Environmental Degradation",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "lifelines-economy",
+          "title": "Geography: Lifelines of National Economy",
+          "titleHi": "राष्ट्रीय अर्थव्यवस्था की जीवन रेखाएँ",
+          "duration": "45 min",
+          "unit": "Geography",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Transport and Communication",
+              "videoId": "0J1k2L3m4N5",
+              "duration": "18:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Transport - Roadways, Railways, Pipelines, Waterways, Airways",
+              "marks": "5",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Communication and Trade",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "International Trade and Tourism",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "power-sharing",
+          "title": "Political Science: Power Sharing",
+          "titleHi": "सत्ता की साझेदारी",
+          "duration": "45 min",
+          "unit": "Political Science",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Why Power Sharing is Desirable",
+              "videoId": "5jXiGVHyHnk",
+              "duration": "16:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Belgium model vs Sri Lanka model",
+              "marks": "5",
+              "important": true,
+              "type": "case_study"
+            },
+            {
+              "text": "Four forms of power sharing",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Majoritarianism in Sri Lanka",
+              "marks": "3",
+              "important": true,
+              "type": "event"
+            }
+          ]
+        },
+        {
+          "id": "federalism",
+          "title": "Political Science: Federalism",
+          "titleHi": "संघवाद",
+          "duration": "45 min",
+          "unit": "Political Science",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "What is Federalism?",
+              "videoId": "1k2L3m4N5o6",
+              "duration": "16:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "What makes India a Federal Country?",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "How is Federalism Practised?",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Linguistic States and Centre-State Relations",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Decentralisation in India",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "political-parties",
+          "title": "Political Science: Political Parties",
+          "titleHi": "राजनीतिक दल",
+          "duration": "45 min",
+          "unit": "Political Science",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Why Do We Need Parties?",
+              "videoId": "2l3M4n5O6p7",
+              "duration": "16:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Why Do We Need Political Parties?",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "How Many Parties Should We Have?",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "National and Regional Parties",
+              "marks": "5",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Challenges to Political Parties",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "outcomes-democracy",
+          "title": "Political Science: Outcomes of Democracy",
+          "titleHi": "लोकतंत्र के परिणाम",
+          "duration": "40 min",
+          "unit": "Political Science",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "How to Assess Democracy",
+              "videoId": "3m4N5o6P7q8",
+              "duration": "14:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "How to Assess Democracy's Outcomes",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Accountable, Responsive and Legitimate Government",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Economic Growth and Development",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Reduction of Inequality and Poverty",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "development",
+          "title": "Economics: Development",
+          "titleHi": "विकास",
+          "duration": "45 min",
+          "unit": "Economics",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "What is Development?",
+              "videoId": "OupPfJCIUWM",
+              "duration": "16:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "National Development vs Individual Goals",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "HDI - indicators: per capita income, health, education",
+              "marks": "3",
+              "important": true,
+              "type": "index"
+            },
+            {
+              "text": "Public Distribution System and literacy rate",
+              "marks": "2",
+              "important": true,
+              "type": "data"
+            },
+            {
+              "text": "Sustainable Development",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "sectors-indian-economy",
+          "title": "Economics: Sectors of Indian Economy",
+          "titleHi": "भारतीय अर्थव्यवस्था के क्षेत्र",
+          "duration": "50 min",
+          "unit": "Economics",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Primary, Secondary, Tertiary Sectors",
+              "videoId": "4n5O6p7Q8r9",
+              "duration": "20:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Sectors of Economic Activities",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Comparing the Three Sectors",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Rising Importance of Tertiary Sector",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Unemployment and Government Initiatives",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "money-credit",
+          "title": "Economics: Money and Credit",
+          "titleHi": "मुद्रा और साख",
+          "duration": "45 min",
+          "unit": "Economics",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Role of Money and Banking",
+              "videoId": "5o6P7q8R9s0",
+              "duration": "18:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "Money as a Medium of Exchange",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Modern Forms of Money",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Banking and Credit",
+              "marks": "5",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Terms of Credit and Self-Help Groups",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "globalisation",
+          "title": "Economics: Globalisation",
+          "titleHi": "वैश्वीकरण",
+          "duration": "45 min",
+          "unit": "Economics",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Integration of Economies",
+              "videoId": "6p7Q8r9S0t1",
+              "duration": "18:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "What is Globalisation?",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Factors that have Enabled Globalisation",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "World Trade Organisation",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Impact of Globalisation in India",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        },
+        {
+          "id": "consumer-rights",
+          "title": "Economics: Consumer Rights",
+          "titleHi": "उपभोक्ता अधिकार",
+          "duration": "40 min",
+          "unit": "Economics",
+          "lessons": [
+            {
+              "id": "l1",
+              "title": "Consumer Awareness and Rights",
+              "videoId": "7q8R9s0T1u2",
+              "duration": "16:00"
+            }
+          ],
+          "ncertTopics": [
+            {
+              "text": "The Consumer in the Market Place",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Consumer Movement and COPRA 1986",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Consumer Rights and Forums",
+              "marks": "3",
+              "important": true,
+              "type": "concept"
+            },
+            {
+              "text": "Taking the Consumer Movement Forward",
+              "marks": "2",
+              "important": true,
+              "type": "concept"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
